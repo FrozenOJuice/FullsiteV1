@@ -24,7 +24,7 @@ export default function MoviesPage() {
       <ul>
         {movies.map((movie) => (
           <li key={movie.id}>
-            {movie.title} ({movie.year}) – Rating: {movie.rating}
+            {movie.title} ({movie.year}) - Rating: {movie.rating}
           </li>
         ))}
       </ul>
